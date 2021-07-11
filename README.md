@@ -2,8 +2,7 @@
 
 ### Description
 
-Generate a UID in the confirmation message for Google Form with Google Apps Script.
-[Demo Form](https://forms.gle/ff5ESGe1eSfJbtc97)
+Generate a UID in the confirmation message for Google Form with Google Apps Script. [Demo Form](https://forms.gle/ff5ESGe1eSfJbtc97)
 
 ### Make a copy of the script
 
@@ -19,11 +18,13 @@ Google Sheet
 
 ### Configuration
 
+```javascript
 const UID = {
-HEADER: "UID_HEADER",
-PREFIX: "UID",
-LENGTH: 5,
-}
+	HEADER: "UID_HEADER",
+	PREFIX: "UID",
+	LENGTH: 5,
+};
+```
 
 ### App Flow
 
@@ -35,5 +36,5 @@ LENGTH: 5,
 
 ### YouTube
 
-- Check on YouTube [GAS-080 Google Form with UID in Confirmation](https://youtu.be/SAgCqxlPCRE)
+- Check on YouTube [GAS-080 Google Form with UID in Confirmation](https://youtu.be/AQoCKA4yM_w)
 - More videos about [Google Apps Script](https://www.youtube.com/playlist?list=PLQhwjnEjYj8Bf_EZDrrcmkB9vcB9Sk3x0)
