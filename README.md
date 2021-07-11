@@ -1,14 +1,13 @@
-# GAS-079 Questionnaire with Data from Sheet
+# GAS-080 Google Form with UID in Confirmation
 
 ### Description
 
-Create a Google Doc questionnaire with data in a Google Sheet.
-[Check the demo questionnaire here](https://docs.google.com/document/d/10ZgZMQFnyX6yF9jaMLTZBRKfQTkTNkyeFG0xn07KT2Y/edit?usp=sharing)
+Generate a UID in the confirmation message for Google Form with Google Apps Script.
+[Demo Form](https://forms.gle/ff5ESGe1eSfJbtc97)
 
 ### Make a copy of the script
 
-[Make a copy](https://docs.google.com/spreadsheets/d/1-aJ-JmrOLC7haOPxvaNMyoPwjC6qBmseOG3OTql-UXQ/copy)
-[Make a copy of doc template](https://docs.google.com/document/d/1sLCpZ-5laROLuC4tpouPanhlrXjO0fkzmsKq33BoCCk/copy)
+[Make a copy](https://docs.google.com/spreadsheets/d/1b7t7auxSgi80byyvnhQTfhLwZsYIyQBAflimcIIBPjs/copy)
 
 ### If you prefer to use clasp
 
@@ -20,20 +19,21 @@ Google Sheet
 
 ### Configuration
 
-```javascirpt
-const CONFIGS = {
-  sheet_name_questions: "Questions",
-  sheet_name_settings: "Settings",
-  folder_name_output: "Questionnarie",
-  app_name: "Questionnarie",
+const UID = {
+HEADER: "UID_HEADER",
+PREFIX: "UID",
+LENGTH: 5,
 }
-```
+
+### App Flow
+
+![image](https://user-images.githubusercontent.com/16481229/125190402-89700800-e26f-11eb-880b-644bb716aa93.png)
 
 ### Screenshots
 
-![image](https://user-images.githubusercontent.com/16481229/116899083-ba2d3300-ac69-11eb-84a3-2a6ab1703956.png)
+![image](https://user-images.githubusercontent.com/16481229/125190451-c5a36880-e26f-11eb-97c6-d2a42890a8e1.png)
 
 ### YouTube
 
-- Check on YouTube [GAS-079 Questionnaire with Data from Sheet](https://youtu.be/SAgCqxlPCRE)
+- Check on YouTube [GAS-080 Google Form with UID in Confirmation](https://youtu.be/SAgCqxlPCRE)
 - More videos about [Google Apps Script](https://www.youtube.com/playlist?list=PLQhwjnEjYj8Bf_EZDrrcmkB9vcB9Sk3x0)
